@@ -28,8 +28,6 @@ LOGGER.info("CREATED BY: KAC-CHAN (t.me/PervertSenpai)")
 
 log = logging.getLogger('[Your Bot Is DEPLOYING]')
 
-__version__ = "1.1.2-rev04"
-
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     LOGGER.error(
