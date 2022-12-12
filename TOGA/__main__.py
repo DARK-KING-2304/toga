@@ -70,21 +70,21 @@ PM_START_TEXT = """
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"•  𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 •",
+                            text=f"ADD ME TO YOUR GROUP",
                             url=f"t.me/Haitham_ROBOT?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(
-                             text="🚑𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
+                             text="SUPPORT",
                              url=f"https://t.me/AstorSupport"),
-                       InlineKeyboardButton(text="📮𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/astorbots"),
-                       InlineKeyboardButton(text="🚧𝐋𝐨𝐠𝐬", url=f"https://t.me/astorgban")
+                       InlineKeyboardButton(text="UPDATES", url=f"https://t.me/astorbots"),
+                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/astorgban")
                     ],
                     [                  
                        InlineKeyboardButton(
-                             text="🏢𝐎𝐟𝐟-𝐓𝐨𝐩𝐢𝐜",
+                             text="OFF-TOPIC",
                              url=f"https://t.me/animefunchatt"),
-                       InlineKeyboardButton(text="🔐𝐇𝐞𝐥𝐩", callback_data="help_back")
+                       InlineKeyboardButton(text="HELP", callback_data="help_back")
                      ],
     ]
 
