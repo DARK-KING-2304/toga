@@ -271,8 +271,8 @@ def start(update: Update, context: CallbackContext):
     else:
         first = update.effective_user.full_name
         chat = update.effective_chat.title
-        update.effective_message.reply_video(
-                video="https://telegra.ph/file/8421c7d73f44695378042.mp4",
+        update.effective_message.reply_photo(
+                photo="https://telegra.ph/file/7712ad9ada6f16577c478.jpg",
                 caption="Started !‎‎‎‎‎‎‎‎ㅤ",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
