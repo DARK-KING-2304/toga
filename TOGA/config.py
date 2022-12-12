@@ -26,7 +26,7 @@ class Config(object):
     #kacrmdi
     WOLVES=[5163444566]
     BOT_ID="5696500136" 
-    SQLALCHEMY_DATABASE_URI="postgresql://sogelmru:tW-il5de7jwfw3PN_-ZMG1k7_tTzpJHX@peanut.db.elephantsql.com/sogelmru" 
+    SQLALCHEMY_DATABASE_URI="postgresql://hrtmlhvm:KlLKwbOBV7kRzJNDQbigew0eA1N_2qEf@castor.db.elephantsql.com/hrtmlhvm" 
     JOIN_LOGGER="-1001745971242" 
     API_HASH="c1b434defccacad6063758c9a7d76d5d" 
     INFOPIC=True
@@ -49,9 +49,9 @@ class Config(object):
     ERROR_LOGS="-1001745971242" 
     BOT_NAME="AstorTestbot"
     STRICT_GBAN=True
-    REDIS_URL="redis://betatoga:Betatoga123+@redis-15793.c241.us-east-1-4.ec2.cloud.redislabs.com:15793"
+    REDIS_URL="redis://OKI:Izaya123@+@redis-18548.c277.us-east-1-3.ec2.cloud.redislabs.com:18548/OKI-free-db"
     UPDATE_CHANNEL="TogaUpdates"
-    MONGO_DB_URI="mongodb+srv://betatoga:Betatoga123+@betatoga.rrk13ss.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI="mongodb://haitham:haitham123@ac-qyf5dda-shard-00-00.fwvg6ry.mongodb.net:27017,ac-qyf5dda-shard-00-01.fwvg6ry.mongodb.net:27017,ac-qyf5dda-shard-00-02.fwvg6ry.mongodb.net:27017/?ssl=true&replicaSet=atlas-vm6xg9-shard-0&authSource=admin&retryWrites=true&w=majority"
     BOT_USERNAME="AstorTestbot"
     REM_BG_API_KEY=""
     CASH_API_KEY=""
