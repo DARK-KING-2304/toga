@@ -61,15 +61,13 @@ class Config(object):
     LOG_GROUP_ID="-1001679983263"
     STRICT_GMUTE=False
     SPAMWATCH_API=""
-    OWNER_NAME="KACCHAN"
+    OWNER_NAME="Abhinav"
     BANCODES=""
-    REPOSITORY="GitHub.com/DARK-KING-2304/Haitham2"
+    REPOSITORY="GitHub.com/DARK-KING-2304/toga"
     ARQ_API_KEY=""
     ARQ_API_URL=""
     COTB=""
-    SPT_CLIENT_SECRET="914a0ed5a4b34f55bdd4144e21410faf"
-    SPT_CLIENT_ID="50d55b24e2454b25800ee7a4de207fc3"
-    APP_URL="acutebot/webserver"
+    
 
 class Production(Config):
     LOGGER=True
