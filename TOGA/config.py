@@ -24,19 +24,19 @@ class Config(object):
     WEBHOOK=False
     BOT_API_URL="5696500136:AAF_i0YIrihTkovpuMUroZLNLnO5S5H90J0"
     #kacrmdi
-    WOLVES=[.]
+    WOLVES=[1243568995]
     BOT_ID="5563894745" 
     SQLALCHEMY_DATABASE_URI="postgresql://hrtmlhvm:KlLKwbOBV7kRzJNDQbigew0eA1N_2qEf@castor.db.elephantsql.com/hrtmlhvm" 
     JOIN_LOGGER="-1001745971242" 
     API_HASH="c1b434defccacad6063758c9a7d76d5d" 
     INFOPIC=True
-    TIGERS=[.]
+    TIGERS=[1243568995]
     API_ID="13849191"
     BL_CHATS=[1]
     DB_URL2="egrrjbpz" 
     TOKEN="5563894745:AAHjIRLESBLVJAilJ-mYqy1z18T1ia0YfH4"
     DEV_USERS=[5491471803]
-    DRAGONS=[.]
+    DRAGONS=[1243568995]
     SPAMWATCH_API=""
     WALL_API=""
     DEMONS=[5163444566]
