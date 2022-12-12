@@ -60,35 +60,32 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 PM_START_TEXT = """
-*Heyaa.! {}, I'M Toga ♡*
-*I'M Affiliated With The League Of Villains.*
-*I'M An Group Management Bot, Built For Weebs.*
-• *Alive Since* - {}
-*Use /help To Go Through My Commands..*
+❂ *Cʜᴇᴇʀs {} 🍻*, I'ᴍ Aʟ-Hᴀɪᴛʜᴀᴍ
+────────────────────
+➲ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇᴅ Gʀᴏᴜᴘ \nMᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Bᴀsᴇᴅ Oɴ Gᴇɴsʜɪɴ \nIᴍᴘᴀᴄᴛ Tʜᴇᴍᴇ.
+────────────────────
+✦ Cʟɪᴄᴋ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Lᴇᴀʀɴ \nMᴏʀᴇ Hᴏᴡ Tᴏ Usᴇ Mᴇ.
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="+Add Me",
-                             url="https://t.me/toga_robot?startgroup=true"),
-                        InlineKeyboardButton(
-                             text="Support",
-                             url="https://t.me/Togasupport"),
+                            text=f"•  𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 •",
+                            url=f"t.me/Haitham_ROBOT?startgroup=true")
                     ],
-                  [
-                        InlineKeyboardButton(
-                             text="Help",
-                             callback_data="help_back"),
-                        InlineKeyboardButton(
-                             text="Dev",
-                             url="https://t.me/izuya"),
+                   [
+                       InlineKeyboardButton(
+                             text="🚑𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
+                             url=f"https://t.me/AstorSupport"),
+                       InlineKeyboardButton(text="📮𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/astorbots"),
+                       InlineKeyboardButton(text="🚧𝐋𝐨𝐠𝐬", url=f"https://t.me/astorgban")
                     ],
-                  [
-                        InlineKeyboardButton(
-                             text="Global Logs",
-                             url="https://t.me/botslogger"),
-                    ],
+                    [                  
+                       InlineKeyboardButton(
+                             text="🏢𝐎𝐟𝐟-𝐓𝐨𝐩𝐢𝐜",
+                             url=f"https://t.me/animefunchatt"),
+                       InlineKeyboardButton(text="🔐𝐇𝐞𝐥𝐩", callback_data="help_back")
+                     ],
     ]
 
 ABOUT1 = """
@@ -107,7 +104,7 @@ ABOUT2 = """
 """
 
 ABOUT3 = """
-Hello [{}], My name is *TOGA*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+Hello [{}], My name is Haitham. A Powerful Telegram Group Management Bot built to help you manage Group easily.
 ‣ I can Restrict Users.
 ‣ I can Greet Users with customizable welcome message and even set a group rules
 ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
@@ -137,7 +134,7 @@ TOGA_N_IMG = (
 
 TOGA_VID = ""
 
-PM_PHOTO = "https://telegra.ph/file/839ffd41ee4639bb06122.jpg"
+PM_PHOTO = "https://telegra.ph/file/63ea33eabb86a45fe5211.jpg"
 
 TOGA_DISPACHER_PIC = ""
 
@@ -283,10 +280,10 @@ def start(update: Update, context: CallbackContext):
                   [
                        InlineKeyboardButton(
                              text="Support",
-                             url="t.me/Togasupport"),
+                             url="t.me/AstorSupport"),
                        InlineKeyboardButton(
                              text="Updates",
-                             url="t.me/togaUpdates")
+                             url="t.me/astorbots")
                      ]
                 ]
             ),
