@@ -17,7 +17,7 @@ from TOGA.modules.sudoers import bot_sys_stats as bss
 
 from TOGA import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK, BOT_NAME,
-                          SUPPORT_CHAT, dispatcher, StartTime, telethn, updater, pgram, pbot)
+                          SUPPORT_CHAT, dispatcher, StartTime, telethn, updater, pgram)
 
 from TOGA.modules import ALL_MODULES
 from TOGA.modules.helper_funcs.chat_status import is_user_admin
@@ -816,5 +816,4 @@ def main():
 if __name__ == '__main__':
     LOGGER.info("Successfully Loaded Modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
-    pbot.start()
     main()
