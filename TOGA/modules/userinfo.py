@@ -301,25 +301,25 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\n⍣ 𝐓𝐎𝐆𝐀’𝐳 𝐂𝐑𝐈𝐌𝐄 𝐏𝐀𝐑𝐓𝐍𝐄𝐑 ! 🦄..."
+        text += "\n\n⍣ President"
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\n⍣ 𝐓𝐎𝐆𝐀’𝐳 𝐂𝐑𝐈𝐌𝐄 𝐏𝐀𝐑𝐓𝐍𝐄𝐑 ! 🦄..."
+        text += "\n\n⍣ Vice-President"
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\n⍣ 𝐄𝐢𝐠𝐡𝐭 𝐏𝐫𝐞𝐜𝐞𝐩𝐭𝐬 𝐨𝐟 𝐃𝐞𝐚𝐭𝐡 🥀 !"
+        text += "\n\n⍣ Advisor"
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\n⍣ 𝐕𝐢𝐥𝐥𝐚𝐧'𝐬 𝐀𝐬𝐬𝐞𝐭𝐬 🖤 !"
+        text += "\n\n⍣ Secretary"
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\n⍣ 𝐍Ø𝐌𝐔 🦍 ..!"
+        text += "\n\n⍣ My Friends"
         disaster_level_present = True
     elif user.id == 5163444566:
         text += "\n\n• MY BRO"
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\n⍣ 𝐐𝐔𝐈𝐑𝐊𝐋𝐄𝐒𝐒 ! 🐣"
+        text += "\n\n⍣ Has Nothing"
         disaster_level_present = True
     try:
         user_member = chat.get_member(user.id)
