@@ -64,7 +64,7 @@ class Config(object):
     OWNER_NAME="Abhinav"
     BANCODES=""
     REPOSITORY="GitHub.com/DARK-KING-2304/toga"
-    ARQ_API_KEY=""
+    ARQ_API_KEY="GGGQSV-IOXGYR-PBLICM-QFNQIY-ARQ"
     ARQ_API_URL=""
     COTB=""
     
