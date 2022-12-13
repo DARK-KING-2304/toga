@@ -26,7 +26,7 @@ class Config(object):
     #kacrmdi
     WOLVES=[1243568995]
     BOT_ID="5563894745" 
-    SQLALCHEMY_DATABASE_URI="postgresql://hrtmlhvm:KlLKwbOBV7kRzJNDQbigew0eA1N_2qEf@castor.db.elephantsql.com/hrtmlhvm" 
+    SQLALCHEMY_DATABASE_URI="postgres://hrtmlhvm:KlLKwbOBV7kRzJNDQbigew0eA1N_2qEf@castor.db.elephantsql.com/hrtmlhvm" 
     JOIN_LOGGER="-1001745971242" 
     API_HASH="c1b434defccacad6063758c9a7d76d5d" 
     INFOPIC=True
